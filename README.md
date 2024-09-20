@@ -22,9 +22,9 @@ Pluggable Authentication Modules의 약자로 인증 모듈을 뜻하며, 리눅
 
 - 고정 IP 설정 (`00-installer-config.yaml 수정` )
 ```powershell
-**sudo nano /etc/netplan/00-installer-config.yaml
+sudo nano /etc/netplan/00-installer-config.yaml
 
-=================================================**
+===================================================
 
 network:
   version: 2
